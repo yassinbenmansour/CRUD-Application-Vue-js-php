@@ -12,7 +12,7 @@
     <title>CRUD APP VUE PHP</title>
 </head>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="/">CRUD APP VUE PHP</a>
+        <a class="navbar-brand" href="/"><?php echo "CRUD APP"  ?></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
