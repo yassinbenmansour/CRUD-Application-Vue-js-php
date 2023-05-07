@@ -4,7 +4,7 @@ require('./db/connexion.php');
 $sql = "SELECT* FROM contacts";
 $result = mysqli_query($con,$sql);
 
-if($result = mysqli_query($con,$sq)){
+if($result = mysqli_query($con,$sql)){
         $i = 0 ;
         $contactTab = [];
         while($row = mysqli_fetch_assoc($result)){
